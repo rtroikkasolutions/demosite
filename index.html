@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="My Website">
+    <title>My Website</title>
+    <!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+</head>
+
+<body id="home">
+
+    <header id="header">
+        <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!--end navbar-toggle-->
+                    <button href="#" class="btnContact visible-xs" data-toggle="modal" data-target="#scheduleDemo">Contact Us</button>
+                    <i class="fa fa-car" aria-hidden="true"></i>
+                    <div class="logoSection">
+                        <a class="navbar-brand" href="index.html">Company</a>
+                        <span class="caption">Logo Here...</span>
+                    </div><!--end logoSection-->
+                </div><!--end navbar-header-->
+
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="scroll active">
+                            <a href="#home">Product</a>
+                        </li>
+                        <li class="scroll">
+                            <a href="#services">Enterprise</a>
+                        </li>
+                        <li class="scroll">
+                            <a href="#about">Company</a>
+                        </li>
+                        <li class="scroll">
+                            <a href="#pricing">Schedule Demo</a>
+                        </li>
+                        <li class="scroll">
+                            <a href="#support">Support</a>
+                        </li>
+                        <li>
+                            <button href="#" class="btnContact hidden-xs" data-toggle="modal" data-target="#scheduleDemo">Contact Us</button>
+                        </li>
+                    </ul>
+                </div><!--end collapse-->
+            </div>
+            <!--/.container-->
+        </nav>
+        <!--/nav-->
+    </header>
+    <!--/header-->
+
+
+
+    <section id="main-slider">
+        <div id="first-slider">
+            <div id="carousel-example-generic" class="carousel slide carousel-fade">
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <!-- Item 1 -->
+                    <div class="item active slide1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 text-center pull-right">
+                                    <img style="max-width: 100%;" data-animation="animated zoomIn" class="animated zoomIn" src="images/slider/img1.png">
+                                </div>
+                                <div class="col-md-6 col-sm-6 text-left pull-left">
+                                    <h4 data-animation="animated bounceInDown" class="animated bounceInDown">Your business with us</h4>
+                                    <h3 data-animation="animated bounceInUp" class="animated bounceInUp">SeaHorse</h3>
+                                    <p data-animation="animated zoomIn" class="animated zoomIn">We leverage the innovative capabilities of the digital transformation to help start-ups / enterprise and scale-up
+                                        organisations take advantage of the cloud native deployment with modern CI / CD.</p>
+                                </div>
+                            </div><!--end row-->
+                        </div><!--end container-->
+                    </div><!--end item-->
+                    <!-- Item 2 -->
+                    <div class="item slide2">
+                            <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 text-center pull-right">
+                                            <img style="max-width: 100%;" data-animation="animated zoomIn" class="animated zoomIn" src="images/slider/img1.png">
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 text-left pull-left">
+                                            <h4 data-animation="animated bounceInDown" class="animated bounceInDown">Your business is not</h4>
+                                            <h3 data-animation="animated bounceInUp" class="animated bounceInUp">Cloud Migration</h3>
+                                            <p data-animation="animated zoomIn" class="animated zoomIn">We leverage the innovative capabilities of the cloud to help enterprise and scale-up
+                                                organisations take advantage of the public cloud and its infinite resources through
+                                                our outcome-driven consulting and managed services.</p>
+                                        </div>
+                                    </div><!--end row-->
+                                </div><!--end container-->
+                    </div><!--end item-->
+
+                </div>
+                <!-- End Wrapper for slides-->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <i class="fa fa-angle-left"></i>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <i class="fa fa-angle-right"></i>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div><!--end carousel-->
+        </div><!--end first-slider-->
+    </section>
+    <!--/#main-slider-->
+
+    <section id="partnerLogo" class="wow fadeIn partnerLogo">
+        <div class="container">
+            <div class="row hidden-xs">
+                <div class="col-md-2 col-sm-2 text-center">
+                    <img src="images/partner1.png">
+                </div>
+                <div class="col-md-2 col-sm-2 text-center">
+                    <img src="images/partner2.png">
+                </div>
+                <div class="col-md-2 col-sm-2 text-center">
+                    <img src="images/partner3.png">
+                </div>
+                <div class="col-md-2 col-sm-2 text-center">
+                    <img src="images/partner4.png">
+                </div>
+                <div class="col-md-2 col-sm-2 text-center">
+                    <img src="images/partner5.png">
+                </div>
+                <div class="col-md-2 col-sm-2 text-center">
+                    <img src="images/partner1.png">
+                </div>
+            </div>
+            <!--/.row-->
+
+            <div id="carousel-partner" class="carousel slide text-center visible-xs" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="col-xs-6">
+                            <img src="images/partner1.png">
+                        </div>
+                        <div class="col-xs-6">
+                            <img src="images/partner1.png">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-xs-6">
+                            <img src="images/partner1.png">
+                        </div>
+                        <div class="col-xs-6">
+                            <img src="images/partner1.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end carousel-testimonial-->
+
+        </div><!--end container-->
+    </section>
+    <!--/#hero-text-->
+
+
+    <section id="whatwedo">
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">What we do</h2>
+                <p class="text-center wow fadeInDown">Simplify and accelerate your Digital Transformation journey</p>
+            </div><!--end section-header-->
+
+            <div class="row">
+                <div class="col-sm-6 wow fadeInLeft">
+                    <img class="img-responsive" src="images/what_we_do.png" alt="">
+                </div>
+
+                <div class="col-sm-6 wow fadeInRight">
+                    <h3 class="column-title">Overview</h3>
+                    <h4>Modern CI/CD, without the headache.</h4>
+                    <p>Modern methodologies in the software development such as DevOps and Continuous Integration / Continuous Delivery (CI/CD) enable organizations to efficiently, effectively, and consistently release and deploy applications, shortening release cycles, and ensuring  customer satisfaction</p>
+					<p>While adopting Agile methodologies and a CI/CD pipeline will most often deliver many, many benefits to organization, they are not without their pitfalls and potential headaches. Here is how SeaHorse product can solve them</p>
+
+                </div>
+            </div><!--end row-->
+        </div><!--end container-->
+    </section>
+    <!--/#about-->
+
+
+    <section id="howItWorks">
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">How it Works</h2>
+                <p class="text-center wow fadeInDown">Implementing Agile and 7 C's DevOps</p>
+            </div><!--end section-header-->
+
+            <div class="row">
+                <div class="col-sm-6 wow fadeInLeft">
+                    <ul>
+                        <li>Continuous Planning (CP) is the process of starting it with big idea and breaking down items with creating smart releases.</li>
+                        <li>Continuous Development is the process of software development methodology.</li>
+                        <li>Continuous Testing (CT) is process of executing automated test in the software delivery pipeline.</li>
+						<li>Continuous Integration (CI) is the practice of quickly integrating newly developed code that is to be released.</li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-6 wow fadeInRight">
+                    <ul>
+                        <li>Continuous Deployment / Delivery (CD) is an  extension of CI deploying code all the way to different environments.</li>
+                        <li>Continuous Monitoring (CM) ensuringthe health, performance and reliability of your application and infrastructure.</li>
+                        <li>Continuous Feedback (CF) is review from your customers for your product and its features and helps you modify accordingly</li>
+				    </ul>
+                </div>
+            </div><!--end row-->
+        </div><!--end container-->
+    </section>
+    <!--/#about-->
+
+    <section id="services">
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Features</h2>
+                <p class="text-center wow fadeInDown">Optimizing your journey with SeaHorse</p>
+            </div><!--end section-header-->
+
+            <div class="row hidden-xs">
+                <div class="features">
+                    <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                        <div class="media service-box">
+                            <img src="images/feature1.png">
+                            <div class="media-body">
+                                <h4 class="media-heading">Easy Configuration</h4>
+                                <p>Simple and easily to set up and configure via its web interface,</p>
+                            </div>
+                        </div><!--end media service-box-->
+                    </div>
+                    <!--/.col-md-3-->
+
+                    <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                        <div class="media service-box">
+                            <img src="images/feature1.png">
+                            <div class="media-body">
+                                <h4 class="media-heading">Flexible Deployment</h4>
+                                <p>Extremely easy to setup your build & deployment stages and get running your pipelines</p>
+                            </div>
+                        </div><!--end media service-box-->
+                    </div>
+                    <!--/.col-md-3-->
+
+                    <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                        <div class="media service-box">
+                            <img src="images/feature1.png">
+                            <div class="media-body">
+                                <h4 class="media-heading">End to End Visualization</h4>
+                                <p>Shows your entire pipeline view to production in a single view.</p>
+                            </div>
+                        </div><!--end media service-box-->
+                    </div>
+                    <!--/.col-md-3-->
+
+                    <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+                        <div class="media service-box">
+                            <img src="images/feature1.png">
+                            <div class="media-body">
+                                <h4 class="media-heading">Containerization</h4>
+                                <p> Containerizing your application be it monolithic or microservices and deploy in to kubernetes</p>
+                            </div>
+                        </div><!--end media service-box-->
+                    </div>
+                    <!--/.col-md-3-->
+                </div><!--end features-->
+            </div>
+            <!--/.row-->
+
+
+            <div id="carousel-feature" class="carousel slide text-center visible-xs" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="media service-box">
+                            <img src="images/feature1.png">
+                            <div class="media-body">
+                                <h4 class="media-heading">Flexible Deployment</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                    been the industry's industry's industry's</p>
+                            </div>
+                        </div>
+                        <!--end media service-box-->
+                    </div>
+                    <div class="item">
+                        <div class="media service-box">
+                            <img src="images/feature1.png">
+                            <div class="media-body">
+                                <h4 class="media-heading">Flexible Deployment</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                    been the industry's industry's industry's</p>
+                            </div>
+                        </div>
+                        <!--end media service-box-->
+                    </div>
+                </div>
+            </div>
+            <!--end carousel-testimonial-->
+        </div>
+        <!--/.container-->
+
+    </section>
+    <!--/#services-->
+
+
+    <section id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Enterprise</h2>
+                <p class="text-center wow fadeInDown">SeaHorse gives enterprises the power to build without roadblocks, deploy with speed, and deliver quickly.
+                </p>
+            </div>
+
+         <!--   <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
+                        <div class="pricing">
+                            <img class="img-responsive" src="images/feature1.png">
+
+                            <h3>High-Performance Builds</h3>
+                            <ul>
+                                <li>12x concurrent builds</li>
+                                <li>3x CPU and Memory (36gb & 10vCPUs)</li>
+                                <li>1000 build minutes</li>
+                                <li>99.9% uptime SLA</li>
+                            </ul>
+                            <span>
+                                <strong>$1,000</strong> /month</span>
+                            <button class="btn">Contact Sales</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
+                        <div class="pricing">
+                            <img class="img-responsive" src="images/feature1.png">
+
+                            <h3>High-Performance Builds</h3>
+                            <ul>
+                                <li>12x concurrent builds</li>
+                                <li>3x CPU and Memory (36gb & 10vCPUs)</li>
+                                <li>1000 build minutes</li>
+                                <li>99.9% uptime SLA</li>
+                            </ul>
+                            <span>
+                                <strong>$1,000</strong> /month</span>
+                            <button class="btn">Contact Sales</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="400ms">
+                        <div class="pricing">
+                            <img class="img-responsive" src="images/feature1.png">
+
+                            <h3>High-Performance Builds</h3>
+                            <ul>
+                                <li>12x concurrent builds</li>
+                                <li>3x CPU and Memory (36gb & 10vCPUs)</li>
+                                <li>1000 build minutes</li>
+                                <li>99.9% uptime SLA</li>
+                            </ul>
+                            <span>
+                                <strong>$1,000</strong> /month</span>
+                            <button class="btn">Contact Sales</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="600ms">
+                        <div class="pricing">
+                            <img class="img-responsive" src="images/feature1.png">
+
+                            <h3>High-Performance Builds</h3>
+                            <ul>
+                                <li>12x concurrent builds</li>
+                                <li>3x CPU and Memory (36gb & 10vCPUs)</li>
+                                <li>1000 build minutes</li>
+                                <li>99.9% uptime SLA</li>
+                            </ul>
+                            <span>
+                                <strong>$1,000</strong> /month</span>
+                            <button class="btn">Contact Sales</button>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div> 
+    </section>
+    <!--/#pricing-->
+
+
+
+
+
+    <section id="about">
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">About us</h2>
+                <p class="text-center wow fadeInDown">Simplify, automate, deploy everything and manage at every step of your journey.</p>
+            </div>
+
+            <div class="row">
+
+                    <div class="col-sm-6 wow fadeInLeft pull-right">
+                        <img class="img-responsive" src="images/about.png" alt="">
+                    </div>
+
+                <div class="col-sm-6 wow fadeInRight">
+                    <h3 class="column-title">Mission</h3>
+                    <p>SeaHorse streamlines software delivery with simple and flexible way of promoting the application to the customer quickly. </p>
+
+                </div>
+				<div class="col-sm-6 wow fadeInRight">
+                    <h3 class="column-title">Build , Test and Deploy</h3>
+                    <p>It helps the teams in the organization to setup the project, configure the pipeline with fast and plug and play CI / CD. </p>
+
+                </div>
+				<div class="col-sm-6 wow fadeInRight">
+                    <h3 class="column-title">Integrates with everything </h3>
+                    <p>It integrates source code repository, Artifacts repository, Containerization and deployment to Kubernetes with ACL. </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#about-->
+
+
+
+    <section id="blog">
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Blog</h2>
+                <p class="text-center wow fadeInDown">Success Stories Discover The Advantage Expert Guidance Brings</p>
+            </div>
+
+            <div class="row hidden-xs">
+                <div class="features">
+                    <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                        <div class="media blog-box">
+                            <img src="images/undraw_cloud_hosting_aodd.svg">
+                            <div class="media-body">
+                                <h4 class="media-heading">Digital Transformation Journey</h4>
+                                <p></p>
+                                <span class="blogerName pull-left">
+                                    By Kalpana K
+                                </span>
+                                <span class="blogerDate pull-right">
+                                    Feb, 2020
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.col-md-3-->
+					<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                        <div class="media blog-box">
+                            <img src="images/undraw_cloud_hosting_aodd.svg">
+                            <div class="media-body">
+                                <h4 class="media-heading"> Agile and DevOps Overview </h4>
+                                <p></p>
+                                <span class="blogerName pull-left">
+                                    By Narasimhachary R
+                                </span>
+                                <span class="blogerDate pull-right">
+                                    Mar 20, 2020
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.col-md-3-->
+
+                    <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                        <div class="media blog-box">
+                            <img src="images/undraw_cloud_hosting_aodd.svg">
+                            <div class="media-body">
+                                <h4 class="media-heading">Monitoring & Observability</h4>
+                                <p></p>
+                                <span class="blogerName pull-left">
+                                    By Arumugam Malu
+                                </span>
+                                <span class="blogerDate pull-right">
+                                    Apr 10, 2020
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.col-md-3-->
+
+                    <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+                        <div class="media blog-box">
+                            <img src="images/undraw_cloud_hosting_aodd.svg">
+                            <div class="media-body">
+                                <h4 class="media-heading">Microservices and Containerization</h4>
+                                <p></p>
+                                <span class="blogerName pull-left">
+                                    By Anandaraj S
+                                </span>
+                                <span class="blogerDate pull-right">
+                                    Dec , 2019
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.col-md-3-->
+                </div>
+            </div>
+            <!--/.row-->
+
+
+            <div id="carousel-blog" class="carousel slide text-center visible-xs" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="media blog-box">
+                            <img src="images/undraw_cloud_hosting_aodd.svg">
+                            <div class="media-body">
+                                <h4 class="media-heading">Flexible Deployment</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                    been the industry's industry's industry's</p>
+                                <span class="blogerName pull-left">
+                                    By Tara Z. Manicsic
+                                </span>
+                                <span class="blogerDate pull-right">
+                                    Oct 30, 2019
+                                </span>
+                            </div>
+                        </div>
+                        <!--end media blog-box-->
+                    </div>
+                    <div class="item">
+                        <div class="media blog-box">
+                            <img src="images/undraw_cloud_hosting_aodd.svg">
+                            <div class="media-body">
+                                <h4 class="media-heading">Flexible Deployment</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                    been the industry's industry's industry's</p>
+                                <span class="blogerName pull-left">
+                                    By Tara Z. Manicsic
+                                </span>
+                                <span class="blogerDate pull-right">
+                                    Oct 30, 2019
+                                </span>
+                            </div>
+                        </div>
+                        <!--end media blog-box-->
+                    </div>
+                </div>
+            </div>
+            <!--end carousel-testimonial-->
+        </div>
+        <!--/.container-->
+    </section>
+    <!--/#services-->
+
+
+
+    <section id="support">
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Support</h2>
+                <p class="text-center wow fadeInDown">SeaHorse supports you everything you need to manage to your customer.Let's start begin our beautiful journey. </p>
+            </div>
+
+          <!--  <div class="row">
+                <div class="container features">
+                    <div class="col-md-4 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                        <div class="media support-box">
+                            <img src="images/support-icon.png">
+                            <div class="media-body">
+                                <h4 class="media-heading">Tech Support</h4>
+                                <p>Issues with setting up a source or destination.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="col-md-4 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                        <div class="media support-box">
+                            <img src="images/support-icon.png">
+                            <div class="media-body">
+                                <h4 class="media-heading">Tech Support</h4>
+                                <p>Issues with setting up a source or destination.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="col-md-4 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                        <div class="media support-box">
+                            <img src="images/support-icon.png">
+                            <div class="media-body">
+                                <h4 class="media-heading">Tech Support</h4>
+                                <p>Issues with setting up a source or destination.</p>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="col-md-4 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                        <div class="media support-box">
+                            <img src="images/support-icon.png">
+                            <div class="media-body">
+                                <h4 class="media-heading">Tech Support</h4>
+                                <p>Issues with setting up a source or destination.</p>
+                            </div>
+                        </div>
+                    </div>
+                   
+
+                    <div class="col-md-4 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                        <div class="media support-box">
+                            <img src="images/support-icon.png">
+                            <div class="media-body">
+                                <h4 class="media-heading">Tech Support</h4>
+                                <p>Issues with setting up a source or destination.</p>
+                            </div>
+                        </div>
+                    </div>
+                  
+
+                    <div class="col-md-4 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                        <div class="media support-box">
+                            <img src="images/support-icon.png">
+                            <div class="media-body">
+                                <h4 class="media-heading">Tech Support</h4>
+                                <p>Issues with setting up a source or destination.</p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div> 
+            </div> -->
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </section>
+    <!--/#services-->
+
+
+
+    <!-- <section id="partners">
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Our Partners</h2>
+                <p class="text-center wow fadeInDown">AltoStack has partnerships with the leading cloud technology providers in the industry to ensure</p>
+            </div>
+        </div>
+        
+
+        <section class="wow fadeIn partnerLogo">
+            <div class="container">
+                <div class="row hidden-xs">
+                    <div class="col-md-2 text-center">
+                        <img src="images/partner1.png">
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="images/partner2.png">
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="images/partner3.png">
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="images/partner4.png">
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="images/partner5.png">
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="images/partner1.png">
+                    </div>
+                </div>
+                -->
+                <div id="carousel-partner-footer" class="carousel slide text-center visible-xs" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="col-xs-6">
+                                <img src="images/partner1.png">
+                            </div>
+                            <div class="col-xs-6">
+                                <img src="images/partner1.png">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-6">
+                                <img src="images/partner1.png">
+                            </div>
+                            <div class="col-xs-6">
+                                <img src="images/partner1.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end carousel-testimonial-->
+            </div>
+        </section>
+        <!--/#hero-text-->
+    </section>
+    <!--/#services-->
+
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="images/partner1.png">
+                </div>
+                <div class="col-sm-6">
+                    <ul class="menu">
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Enterprise</a></li>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Schedule Demo</a></li>
+                        <li class="hidden-xs"><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 text-right">
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <p>© Copyright 2019, SeaHorse</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/#footer-->
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="scheduleDemo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="col-md-6 imgBox hidden-xs" >
+
+                </div>
+                <div class="col-md-6">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span>
+                            <span class="sr-only">Close</span>
+                        </button>
+                        <h4 class="modal-title text-center" id="myModalLabel">
+                            Schedule a demo
+                        </h4>
+                        <p class="text-center">Please complete to create your account.</p>
+                    </div>
+
+                    <!-- Modal Body -->
+                    <div class="modal-body">
+
+                        <form class="form-horizontal" role="form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="First Name" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="inputPassword3" placeholder="Last Name" />
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="inputPassword3" placeholder="Email"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="inputPassword3" placeholder="Phone Number"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                            <textarea class="form-control" placeholder="Preferred Time For A Demo"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <!-- <label class="control-label">Can You Provide Some Details About Your Scenario?</label> -->
+                                        <textarea class="form-control" placeholder="Can You Provide Some Details About Your Scenario?"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+                <!--end col-md-6-->
+                <div style="clear: both"></div>
+            </div>
+            <!--end modal-content-->
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!-- <script src="js/smoothscroll.js"></script> -->
+    <script src="js/custom-scripts.js"></script>
+</body>
+
+</html>
